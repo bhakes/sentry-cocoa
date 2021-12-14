@@ -7,6 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "Sentry",
+            type: .static,
             targets: ["Sentry"]
         )
     ],
